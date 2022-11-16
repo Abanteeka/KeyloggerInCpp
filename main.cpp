@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     saveData a;
 
-    int spL_key_array[] = {VK_BROWSER_SEARCH,VK_SNAPSHOT,VK_HOME,VK_SHIFT,VK_SPACE,VK_MENU,VK_CONTROL,VK_CAPITAL};
+    int spL_key_array[] = {VK_SNAPSHOT,VK_HOME,VK_SHIFT,VK_SPACE,VK_MENU,VK_CONTROL,VK_CAPITAL};
 
     string spL_key_char;
     bool is_spl_key;
